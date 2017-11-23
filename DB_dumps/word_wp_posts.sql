@@ -1,14 +1,4 @@
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-15 21:49:19', '2017-11-15 18:49:19', 'Добро пожаловать в WordPress. Это ваша первая запись. Отредактируйте или удалите её, затем пишите!', 'Привет, мир!', '', 'publish', 'open', 'open', '', '%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80', '', '', '2017-11-15 21:49:19', '2017-11-15 18:49:19', '', 0, 'http://word.loc/?p=1', 0, 'post', '', 1);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-15 21:49:19', '2017-11-15 18:49:19', 'Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице &laquo;Детали&raquo; владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:
-
-<blockquote>Привет! Днём я курьер, а вечером &#8212; подающий надежды актёр. Это мой блог. Я живу в Ростове-на-Дону, люблю своего пса Джека и пинаколаду. (И ещё попадать под дождь.)</blockquote>
-
-...или так:
-
-<blockquote>Компания &laquo;Штучки XYZ&raquo; была основана в 1971 году и с тех пор производит качественные штучки. Компания находится в Готэм-сити, имеет штат из более чем 2000 сотрудников и приносит много пользы жителям Готэма.</blockquote>
-
-Перейдите <a href="http://word.loc/wp-admin/">в консоль</a>, чтобы удалить эту страницу и создать новые. Успехов!', 'Пример страницы', '', 'trash', 'closed', 'open', '', 'sample-page__trashed', '', '', '2017-11-20 12:25:30', '2017-11-20 09:25:30', '', 0, 'http://word.loc/?page_id=2', 0, 'page', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-15 21:50:05', null, '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-11-15 21:50:05', null, '', 0, 'http://word.loc/?p=3', 0, 'post', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-16 19:58:30', null, '', 'Эспрессо', '', 'auto-draft', 'open', 'closed', '', '', '', '', '2017-11-16 19:49:26', null, '', 0, 'http://word.loc/wp-content/uploads/2017/11/espresso.jpg', 0, 'attachment', 'image/jpeg', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-16 19:58:30', null, '', 'Сэндвич', '', 'auto-draft', 'open', 'closed', '', '', '', '', '2017-11-16 19:49:27', null, '', 0, 'http://word.loc/wp-content/uploads/2017/11/sandwich.jpg', 0, 'attachment', 'image/jpeg', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-16 19:58:30', null, '', 'Кофе', '', 'auto-draft', 'open', 'closed', '', '', '', '', '2017-11-16 19:49:31', null, '', 0, 'http://word.loc/wp-content/uploads/2017/11/coffee.jpg', 0, 'attachment', 'image/jpeg', 0);
@@ -432,23 +422,11 @@ INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, 
         "date_modified_gmt": "2017-11-16 18:55:09"
     }
 }', '', '', 'trash', 'closed', 'closed', '', '87a63631-5215-4a84-9402-285c5a2ef1be', '', '', '2017-11-16 21:55:24', '2017-11-16 18:55:24', '', 0, 'http://word.loc/?p=13', 0, 'customize_changeset', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-16 21:55:24', '2017-11-16 18:55:24', '', 'Главная', '', 'publish', 'closed', 'closed', '', '%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f', '', '', '2017-11-16 21:55:24', '2017-11-16 18:55:24', '', 0, 'http://word.loc/?p=14', 1, 'nav_menu_item', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-16 21:55:25', '2017-11-16 18:55:25', ' ', '', '', 'publish', 'closed', 'closed', '', '15', '', '', '2017-11-16 21:55:25', '2017-11-16 18:55:25', '', 0, 'http://word.loc/?p=15', 2, 'nav_menu_item', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:55:12', '2017-11-20 09:55:12', '', 'Mascot Kitty - White', '', 'trash', 'closed', 'closed', '', '__trashed', '', '', '2017-11-20 12:55:12', '2017-11-20 09:55:12', '', 0, 'http://word.loc/?page_id=16', 0, 'page', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:20:28', null, '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-11-20 12:20:28', null, '', 0, 'http://word.loc/?page_id=17', 0, 'page', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:25:30', '2017-11-20 09:25:30', 'Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице &laquo;Детали&raquo; владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:
-
-<blockquote>Привет! Днём я курьер, а вечером &#8212; подающий надежды актёр. Это мой блог. Я живу в Ростове-на-Дону, люблю своего пса Джека и пинаколаду. (И ещё попадать под дождь.)</blockquote>
-
-...или так:
-
-<blockquote>Компания &laquo;Штучки XYZ&raquo; была основана в 1971 году и с тех пор производит качественные штучки. Компания находится в Готэм-сити, имеет штат из более чем 2000 сотрудников и приносит много пользы жителям Готэма.</blockquote>
-
-Перейдите <a href="http://word.loc/wp-admin/">в консоль</a>, чтобы удалить эту страницу и создать новые. Успехов!', 'Пример страницы', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2017-11-20 12:25:30', '2017-11-20 09:25:30', '', 2, 'http://word.loc/?p=18', 0, 'revision', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:07:50', '2017-11-21 07:07:50', '', 'Interesting Read', '', 'publish', 'closed', 'closed', '', 'interesting-read', '', '', '2017-11-21 10:08:45', '2017-11-21 07:08:45', '', 0, 'http://word.loc/?page_id=19', 0, 'page', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:26:25', '2017-11-20 09:26:25', '', 'Products', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2017-11-20 12:26:25', '2017-11-20 09:26:25', '', 19, 'http://word.loc/?p=20', 0, 'revision', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:27:11', null, '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-11-20 12:27:11', null, '', 0, 'http://word.loc/?post_type=acf&p=21', 0, 'acf', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:31:55', '2017-11-20 09:31:55', '', 'Products', '', 'publish', 'closed', 'closed', '', 'acf_products', '', '', '2017-11-21 13:57:04', '2017-11-21 10:57:04', '', 0, 'http://word.loc/?post_type=acf&#038;p=22', 0, 'acf', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:31:55', '2017-11-20 09:31:55', '', 'Products', '', 'publish', 'closed', 'closed', '', 'acf_products', '', '', '2017-11-23 12:58:09', '2017-11-23 09:58:09', '', 0, 'http://word.loc/?post_type=acf&#038;p=22', 0, 'acf', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:35:48', '2017-11-20 09:35:48', '', 'New Slideshow', '', 'trash', 'closed', 'closed', '', 'new-slideshow__trashed', '', '', '2017-11-20 12:41:47', '2017-11-20 09:41:47', '', 0, 'http://word.loc/?post_type=ml-slider&#038;p=23', 0, 'ml-slider', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:39:32', '2017-11-20 09:39:32', '', '01', '', 'inherit', 'open', 'closed', '', '01', '', '', '2017-11-20 12:39:32', '2017-11-20 09:39:32', '', 0, 'http://word.loc/wp-content/uploads/2017/11/01.jpg', 0, 'attachment', 'image/jpeg', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:39:34', '2017-11-20 09:39:34', '', '02', '', 'inherit', 'open', 'closed', '', '02', '', '', '2017-11-20 12:39:34', '2017-11-20 09:39:34', '', 0, 'http://word.loc/wp-content/uploads/2017/11/02.jpg', 0, 'attachment', 'image/jpeg', 0);
@@ -459,7 +437,6 @@ INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, 
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:42:22', '2017-11-20 09:42:22', '', 'Slider 28 - image', '', 'trash', 'closed', 'closed', '', 'slider-28-image-2__trashed', '', '', '2017-11-21 10:22:34', '2017-11-21 07:22:34', '', 0, 'http://word.loc/?post_type=ml-slide&#038;p=30', 1, 'ml-slide', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:42:22', '2017-11-20 09:42:22', '', 'Slider 28 - image', '', 'trash', 'closed', 'closed', '', 'slider-28-image-3__trashed', '', '', '2017-11-21 10:22:34', '2017-11-21 07:22:34', '', 0, 'http://word.loc/?post_type=ml-slide&#038;p=31', 2, 'ml-slide', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:42:23', '2017-11-20 09:42:23', '', 'Slider 28 - image', '', 'trash', 'closed', 'closed', '', 'slider-28-image-4__trashed', '', '', '2017-11-21 10:22:34', '2017-11-21 07:22:34', '', 0, 'http://word.loc/?post_type=ml-slide&#038;p=32', 3, 'ml-slide', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-20 12:55:12', '2017-11-20 09:55:12', '', 'Mascot Kitty - White', '', 'inherit', 'closed', 'closed', '', '16-revision-v1', '', '', '2017-11-20 12:55:12', '2017-11-20 09:55:12', '', 16, 'http://word.loc/?p=33', 0, 'revision', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:01:49', null, '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-11-21 10:01:49', null, '', 0, 'http://word.loc/?page_id=34', 0, 'page', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:03:15', '2017-11-21 07:03:15', '', 'Symbolic Bag', '', 'publish', 'closed', 'closed', '', 'symbolic-bag', '', '', '2017-11-21 10:04:52', '2017-11-21 07:04:52', '', 0, 'http://word.loc/?page_id=35', 0, 'page', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:03:15', '2017-11-21 07:03:15', '', 'Symbolic Bag', '', 'inherit', 'closed', 'closed', '', '35-revision-v1', '', '', '2017-11-21 10:03:15', '2017-11-21 07:03:15', '', 35, 'http://word.loc/?p=36', 0, 'revision', '', 0);
@@ -522,7 +499,416 @@ INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, 
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:40:00', '2017-11-21 07:40:00', '', 'Slider 79 - image', '', 'publish', 'closed', 'closed', '', 'slider-79-image-10', '', '', '2017-11-21 10:47:07', '2017-11-21 07:47:07', '', 0, 'http://word.loc/?post_type=ml-slide&#038;p=93', 9, 'ml-slide', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:40:00', '2017-11-21 07:40:00', '', 'Slider 79 - image', '', 'publish', 'closed', 'closed', '', 'slider-79-image-11', '', '', '2017-11-21 10:47:07', '2017-11-21 07:47:07', '', 0, 'http://word.loc/?post_type=ml-slide&#038;p=94', 10, 'ml-slide', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-21 10:40:00', '2017-11-21 07:40:00', '', 'Slider 79 - image', '', 'publish', 'closed', 'closed', '', 'slider-79-image-12', '', '', '2017-11-21 10:47:07', '2017-11-21 07:47:07', '', 0, 'http://word.loc/?post_type=ml-slide&#038;p=95', 11, 'ml-slide', '', 0);
-INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-22 12:42:47', null, '', 'login', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-22 12:42:47', '2017-11-22 09:42:47', '', 0, 'http://word.loc/?page_id=96', 0, 'page', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-22 13:12:59', '2017-11-22 10:12:59', '', 'login', '', 'publish', 'closed', 'closed', '', 'login', '', '', '2017-11-22 13:24:00', '2017-11-22 10:24:00', '', 0, 'http://word.loc/?post_type=sidebar&#038;p=97', 0, 'sidebar', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-22 13:34:17', null, '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-11-22 13:34:17', null, '', 0, 'http://word.loc/?post_type=sidebar&p=101', 0, 'sidebar', '', 0);
 INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-22 13:42:12', '2017-11-22 10:42:12', '', '', '', 'publish', 'closed', 'closed', '', '103', '', '', '2017-11-22 13:42:12', '2017-11-22 10:42:12', '', 97, 'http://word.loc/?post_type=condition_group&#038;p=103', 1, 'condition_group', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 'Default Registration', '', 'publish', 'closed', 'closed', '', 'default-registration', '', '', '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 0, 'http://word.loc/?um_form=default-registration', 0, 'um_form', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 'Default Login', '', 'publish', 'closed', 'closed', '', 'default-login', '', '', '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 0, 'http://word.loc/?um_form=default-login', 0, 'um_form', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 'Default Profile', '', 'publish', 'closed', 'closed', '', 'default-profile', '', '', '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 0, 'http://word.loc/?um_form=default-profile', 0, 'um_form', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 'Members', '', 'publish', 'closed', 'closed', '', 'members', '', '', '2017-11-23 12:37:02', '2017-11-23 09:37:02', '', 0, 'http://word.loc/?um_directory=members', 0, 'um_directory', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:02', '2017-11-23 09:37:02', '[ultimatemember form_id=106]', 'User', '', 'publish', 'closed', 'open', '', 'user', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 0, 'http://word.loc/?p=108', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=106]', 'User', '', 'inherit', 'closed', 'closed', '', '108-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 108, 'http://word.loc/?p=109', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=105]', 'Login', '', 'publish', 'closed', 'open', '', 'login', '', '', '2017-11-23 13:24:43', '2017-11-23 10:24:43', '', 0, 'http://word.loc/?p=110', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=105]', 'Login', '', 'inherit', 'closed', 'closed', '', '110-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 110, 'http://word.loc/?p=111', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=104]', 'Register', '', 'publish', 'closed', 'open', '', 'register', '', '', '2017-11-23 13:25:18', '2017-11-23 10:25:18', '', 0, 'http://word.loc/?p=112', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=104]', 'Register', '', 'inherit', 'closed', 'closed', '', '112-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 112, 'http://word.loc/?p=113', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=107]', 'Members', '', 'publish', 'closed', 'open', '', 'members', '', '', '2017-11-23 13:25:14', '2017-11-23 10:25:14', '', 0, 'http://word.loc/?p=114', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember form_id=107]', 'Members', '', 'inherit', 'closed', 'closed', '', '114-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 114, 'http://word.loc/?p=115', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 'Logout', '', 'publish', 'closed', 'open', '', 'logout', '', '', '2017-11-23 13:24:46', '2017-11-23 10:24:46', '', 0, 'http://word.loc/?p=116', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 'Logout', '', 'inherit', 'closed', 'closed', '', '116-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 116, 'http://word.loc/?p=117', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember_account]', 'Account', '', 'publish', 'closed', 'open', '', 'account', '', '', '2017-11-23 13:22:13', '2017-11-23 10:22:13', '', 0, 'http://word.loc/?p=118', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember_account]', 'Account', '', 'inherit', 'closed', 'closed', '', '118-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 118, 'http://word.loc/?p=119', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember_password]', 'Password Reset', '', 'publish', 'closed', 'open', '', 'password-reset', '', '', '2017-11-23 13:25:26', '2017-11-23 10:25:26', '', 0, 'http://word.loc/?p=120', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '[ultimatemember_password]', 'Password Reset', '', 'inherit', 'closed', 'closed', '', '120-revision-v1', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 120, 'http://word.loc/?p=121', 0, 'revision', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 'Admin', '', 'publish', 'closed', 'closed', '', 'admin', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 0, 'http://word.loc/?um_role=admin', 0, 'um_role', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 'Member', '', 'publish', 'closed', 'closed', '', 'member', '', '', '2017-11-23 12:37:03', '2017-11-23 09:37:03', '', 0, 'http://word.loc/?um_role=member', 0, 'um_role', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 14:51:52', null, '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-11-23 14:51:52', null, '', 0, 'http://word.loc/?page_id=126', 0, 'page', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:40:31', null, '{
+    "show_on_front": {
+        "value": "posts",
+        "type": "option",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:40:31"
+    },
+    "nav_menu_item[-2004640594]": {
+        "value": {
+            "object_id": 118,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 2,
+            "type": "post_type",
+            "title": "Account",
+            "url": "http://word.loc/?page_id=118",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Account",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:40:31"
+    },
+    "nav_menu_item[-1565033246]": {
+        "value": {
+            "object_id": 116,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 3,
+            "type": "post_type",
+            "title": "Logout",
+            "url": "http://word.loc/?page_id=116",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Logout",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:40:31"
+    },
+    "nav_menu_item[-2097202117]": {
+        "value": {
+            "object_id": 108,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 4,
+            "type": "post_type",
+            "title": "User",
+            "url": "http://word.loc/?page_id=108",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "User",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:40:31"
+    }
+}', '', '', 'auto-draft', 'closed', 'closed', '', '3e969212-d1d4-48a9-b6f1-631d256e0656', '', '', '2017-11-23 15:40:31', null, '', 0, 'http://word.loc/?p=127', 0, 'customize_changeset', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:44:25', null, '{
+    "nav_menu_item[14]": {
+        "value": {
+            "menu_item_parent": 0,
+            "object_id": 14,
+            "object": "custom",
+            "type": "custom",
+            "type_label": "\\u041f\\u0440\\u043e\\u0438\\u0437\\u0432\\u043e\\u043b\\u044c\\u043d\\u0430\\u044f \\u0441\\u0441\\u044b\\u043b\\u043a\\u0430",
+            "title": "\\u0413\\u043b\\u0430\\u0432\\u043d\\u0430\\u044f",
+            "url": "http://word.loc",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "nav_menu_term_id": 2,
+            "position": 3,
+            "status": "publish",
+            "original_title": "",
+            "_invalid": false
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    },
+    "nav_menu_item[-1412792352]": {
+        "value": {
+            "object_id": 118,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 1,
+            "type": "post_type",
+            "title": "Account",
+            "url": "http://word.loc/?page_id=118",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Account",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    },
+    "nav_menu_item[-822563882]": {
+        "value": {
+            "object_id": 116,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 2,
+            "type": "post_type",
+            "title": "Logout",
+            "url": "http://word.loc/?page_id=116",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Logout",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    },
+    "nav_menu_item[-763932486]": {
+        "value": {
+            "object_id": 114,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 5,
+            "type": "post_type",
+            "title": "Members",
+            "url": "http://word.loc/?page_id=114",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Members",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    },
+    "nav_menu_item[-1204197288]": {
+        "value": {
+            "object_id": 112,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 6,
+            "type": "post_type",
+            "title": "Register",
+            "url": "http://word.loc/?page_id=112",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Register",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    },
+    "nav_menu_item[-1056029120]": {
+        "value": {
+            "object_id": 110,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 7,
+            "type": "post_type",
+            "title": "Login",
+            "url": "http://word.loc/?page_id=110",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Login",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    },
+    "nav_menu_item[-469244741]": {
+        "value": {
+            "object_id": 108,
+            "object": "page",
+            "menu_item_parent": 0,
+            "position": 8,
+            "type": "post_type",
+            "title": "User",
+            "url": "http://word.loc/?page_id=108",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "User",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:44:25"
+    }
+}', '', '', 'auto-draft', 'closed', 'closed', '', '5a6be86c-8b04-42d0-918a-34446110fc9c', '', '', '2017-11-23 15:44:25', null, '', 0, 'http://word.loc/?p=128', 0, 'customize_changeset', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:46:41', '2017-11-23 12:46:41', '{
+    "nav_menu[2]": {
+        "value": false,
+        "type": "nav_menu",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:46:41"
+    },
+    "nav_menu_item[-345185090]": {
+        "value": {
+            "object_id": 120,
+            "object": "page",
+            "menu_item_parent": 14,
+            "position": 1,
+            "type": "post_type",
+            "title": "Password Reset",
+            "url": "http://word.loc/?page_id=120",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Password Reset",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:45:51"
+    },
+    "nav_menu_item[-2137632281]": {
+        "value": {
+            "object_id": 118,
+            "object": "page",
+            "menu_item_parent": 14,
+            "position": 2,
+            "type": "post_type",
+            "title": "Account",
+            "url": "http://word.loc/?page_id=118",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Account",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:45:51"
+    },
+    "nav_menu_item[-1214727864]": {
+        "value": {
+            "object_id": 116,
+            "object": "page",
+            "menu_item_parent": 14,
+            "position": 3,
+            "type": "post_type",
+            "title": "Logout",
+            "url": "http://word.loc/?page_id=116",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Logout",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:45:51"
+    },
+    "nav_menu_item[-1461669783]": {
+        "value": {
+            "object_id": 114,
+            "object": "page",
+            "menu_item_parent": 14,
+            "position": 4,
+            "type": "post_type",
+            "title": "Members",
+            "url": "http://word.loc/?page_id=114",
+            "target": "",
+            "attr_title": "",
+            "description": "",
+            "classes": "",
+            "xfn": "",
+            "status": "publish",
+            "original_title": "Members",
+            "nav_menu_term_id": 2,
+            "_invalid": false,
+            "type_label": "\\u0421\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u0430"
+        },
+        "type": "nav_menu_item",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:45:51"
+    },
+    "test_theme::nav_menu_locations[top-navigation]": {
+        "value": 0,
+        "type": "theme_mod",
+        "user_id": 1,
+        "date_modified_gmt": "2017-11-23 12:46:41"
+    }
+}', '', '', 'trash', 'closed', 'closed', '', 'ad3f643f-17da-4e5b-99f5-3f43a59349d8', '', '', '2017-11-23 15:46:41', '2017-11-23 12:46:41', '', 0, 'http://word.loc/?p=129', 0, 'customize_changeset', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:01', null, '', 'Главная', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:01', null, '', 0, 'http://word.loc/?p=130', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:02', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:02', null, '', 0, 'http://word.loc/?p=131', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:02', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:02', null, '', 0, 'http://word.loc/?p=132', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:02', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:02', null, '', 0, 'http://word.loc/?p=133', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=134', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=135', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=136', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=137', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=138', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=139', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:03', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:03', null, '', 0, 'http://word.loc/?p=140', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=141', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=142', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=143', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=144', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=145', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=146', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=147', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=148', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=149', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=150', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=151', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=152', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:04', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:04', null, '', 0, 'http://word.loc/?p=153', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:05', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:05', null, '', 0, 'http://word.loc/?p=154', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:05', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:05', null, '', 0, 'http://word.loc/?p=155', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:05', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:05', null, '', 0, 'http://word.loc/?p=156', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:47:05', null, ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-11-23 15:47:05', null, '', 0, 'http://word.loc/?p=157', 1, 'nav_menu_item', '', 0);
+INSERT INTO word.wp_posts (post_author, post_date, post_date_gmt, post_content, post_title, post_excerpt, post_status, comment_status, ping_status, post_password, post_name, to_ping, pinged, post_modified, post_modified_gmt, post_content_filtered, post_parent, guid, menu_order, post_type, post_mime_type, comment_count) VALUES (1, '2017-11-23 15:48:32', null, '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-11-23 15:48:32', null, '', 0, 'http://word.loc/?p=158', 0, 'post', '', 0);

@@ -1,5 +1,4 @@
-INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (1, 'category', '', 0, 1);
-INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (2, 'nav_menu', '', 0, 2);
+INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (1, 'category', '', 0, 2);
 INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (3, 'ml-slider', '', 0, 0);
 INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (4, 'ml-slider', '', 0, 0);
 INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (5, 'category', '', 0, 10);
@@ -18,3 +17,4 @@ INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count
 INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (18, 'product_visibility', '', 0, 0);
 INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (19, 'product_visibility', '', 0, 0);
 INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (20, 'ml-slider', '', 0, 12);
+INSERT INTO word.wp_term_taxonomy (term_id, taxonomy, description, parent, count) VALUES (21, 'category', '', 0, 6);

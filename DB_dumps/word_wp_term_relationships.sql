@@ -1,6 +1,4 @@
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (1, 1, 0);
-INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (14, 2, 0);
-INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (15, 2, 0);
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (19, 5, 0);
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (29, 4, 0);
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (30, 4, 0);
@@ -37,3 +35,10 @@ INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order)
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (93, 20, 0);
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (94, 20, 0);
 INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (95, 20, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (108, 1, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (110, 21, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (112, 21, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (114, 21, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (116, 21, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (118, 21, 0);
+INSERT INTO word.wp_term_relationships (object_id, term_taxonomy_id, term_order) VALUES (120, 21, 0);
