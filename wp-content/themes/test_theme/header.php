@@ -25,20 +25,34 @@
                     <span>So turn the lights out</span>
                 </div>
                 <div class="text-right-lg shop-bar">
-                    <ul>
-                        <li><a href="">Whish list</a></li>
-                        <li><a href="">My account</a></li>
-                        <li><a href="">Shopping cart</a></li>
-                        <li><a href="">Checkout</a></li>
-                    </ul>
 
-                    <button class="basket_shop"></button>
-
+					<?php if (is_user_logged_in())
+					{
+						?>
+                        <ul>
+                            <li><a href="">Whish list</a></li>
+                            <li><a href="">Shopping cart</a></li>
+                            <li><a href="">Checkout</a></li>
+                            <li><a href="<?php echo get_permalink(118) ?>">My account</a></li>
+                            <li><a href="<?php echo get_permalink(116) ?>">Logout</a></li>
+                        </ul>
+                        <button class="basket_shop"></button>
+						<?php
+					}
+					else
+					{
+						?>
+                        <ul>
+                            <li><a href="<?php echo get_permalink(110) ?>">Login</a></li>
+                        </ul>
+						<?php
+					}
+					?>
                 </div>
             </div>
         </div>
     </header>
-    <!--Navigation & Login-->
+    <!--Navigation-->
     <header class="header">
         <div class="container">
             <div class="row">
@@ -62,6 +76,7 @@
                         <li><a href="">Phones & PDAs</a></li>
                         <li><a href="">Cameras</a></li>
                         <li><a href="">Contact</a></li>
+                        <!--                       <li>--><?php //wp_nav_menu('theme_location=top-navigation'); ?><!--</li>-->
                     </ul>
                     <div id="box">
                         <div class="head"></div>
@@ -70,23 +85,19 @@
             </div>
         </div>
     </header>
-    <!--            --><?php //wp_nav_menu('theme_location=top-navigation'); ?>
 
+    <!--Invitation-->
     <div id="bottom_bat">
         <div class="container">
             <div class="row">
                 <div class="call_for_login text-left-lg">
 					<?php if (is_user_logged_in()) {
-						echo "<span>Welcome to our site!</span>";
+						echo "<span>Welcome to our site !</span>";
 					}
 					else
 					{
 						echo "<span>Welcome visitor! You can login or create an account.</span>";
 					}; ?>
-                </div>
-                <!--Login-->
-                <div class="form_for_login">
-                    <span><?php login_with_ajax () ?></span>
                 </div>
             </div>
         </div>
