@@ -1,0 +1,3 @@
+INSERT INTO word.wp_comments (comment_post_ID, comment_author, comment_author_email, comment_author_url, comment_author_IP, comment_date, comment_date_gmt, comment_content, comment_karma, comment_approved, comment_agent, comment_type, comment_parent, user_id) VALUES (1, 'Автор комментария', 'wapuu@wordpress.example', 'https://wordpress.org/', '', '2017-11-15 21:49:19', '2017-11-15 18:49:19', 'Привет! Это комментарий.
+Чтобы начать модерировать, редактировать и удалять комментарии, перейдите на экран «Комментарии» в консоли.
+Аватары авторов комментариев загружаются с сервиса <a href="https://ru.gravatar.com">Gravatar</a>.', 0, '1', '', '', 0, 0);

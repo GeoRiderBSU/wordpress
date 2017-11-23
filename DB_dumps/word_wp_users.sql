@@ -1,0 +1,1 @@
+INSERT INTO word.wp_users (user_login, user_pass, user_nicename, user_email, user_url, user_registered, user_activation_key, user_status, display_name) VALUES ('admin', '$P$BvCHoAQYpWMX7oapN3AMbMEMT443mq.', 'admin', 'test@word.loc', '', '2017-11-15 18:49:19', '', 0, 'admin');
