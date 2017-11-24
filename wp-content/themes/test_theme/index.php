@@ -7,11 +7,23 @@
 *  e.g., it puts together the home page when no home.php file exists.
 */
 get_header();
+
+//Template for Main slider
 get_template_part('parts_template/main_slider');
+
+//Template for Featured section
 get_template_part('parts_template/featured');
+
+//Template for Brands section
 get_template_part('parts_template/brands');
+
+//Template for Latest section
 get_template_part('parts_template/latest');
+
 //get_template_part('parts_template/latest-back-top');
 //get_template_part('parts_template/latest-back-top2');
+
+//Template for fancybox modal window
 get_template_part('parts_template/fancybox');
+
 get_footer();
