@@ -28,5 +28,5 @@ INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, 'role', 
 INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, 'um_account_secure_fields', 'a:0:{}');
 INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, 'um_user_profile_url_slug_user_login', 'vasia');
 INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, 'nav_menu_recently_edited', '2');
-INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, 'session_tokens', 'a:1:{s:64:"0f187c27ad088205891ea3bc777d5bc8251514c0e8dd5bc50ed47de2b2e04355";a:4:{s:10:"expiration";i:1512656132;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:77:"Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0";s:5:"login";i:1511446532;}}');
-INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, '_um_last_login', '1511457332');
+INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, 'session_tokens', 'a:1:{s:64:"747b4ffbbb49c287717b48291508fa8e1807761cf94dfabcca500bbf4ddd0216";a:4:{s:10:"expiration";i:1512720989;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:77:"Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0";s:5:"login";i:1511511389;}}');
+INSERT INTO word.wp_usermeta (user_id, meta_key, meta_value) VALUES (1, '_um_last_login', '1511522189');

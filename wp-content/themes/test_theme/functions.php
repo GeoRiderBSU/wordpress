@@ -54,6 +54,7 @@ function test_scripts ()
 		array ('jquery'),
 		filemtime( get_theme_file_path('/js/swiper.js') )
 	);
+	//Enqueue swiper parameters
 	wp_enqueue_script(
 		'swiper-param',
 		get_template_directory_uri() . '/js/swiper-param.js',
@@ -73,6 +74,7 @@ function test_scripts ()
 		array ('jquery'),
 		filemtime( get_theme_file_path('/js/jquery.fancybox.js') )
 	);
+	//Enqueue fancybox paramters
 	wp_enqueue_script(
 		'fancybox-param',
 		get_template_directory_uri() . '/js/fancybox-param.js',
@@ -82,3 +84,18 @@ function test_scripts ()
 	);
 }
 add_action( 'wp_enqueue_scripts', 'test_scripts' );
+
+//Filters for wp_get_document_title() function
+
+//Delete site description
+add_filter('document_title_parts', function($title){
+	if( isset($title['tagline']) ) unset( $title['tagline'] );
+
+	return $title;
+});
+
+//Delete site name on single pages
+add_filter('document_title_parts', function( $parts ){
+	if( isset($parts['site']) ) unset($parts['site']);
+	return $parts;
+});

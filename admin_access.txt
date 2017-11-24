@@ -1,0 +1,5 @@
+L: vasia
+P: 649B@4gfJ2jb*Z1w#a
+-------------
+Ià no access to adminpanel:
+http://word.loc/wp-admin/?um_panic_key=1RFKdRX4AY

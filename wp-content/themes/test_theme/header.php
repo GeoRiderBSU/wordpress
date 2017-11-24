@@ -8,8 +8,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Company so turn the lights out</title>
+    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>;" charset="<?php bloginfo('charset'); ?>"/>
+    <title><?php echo wp_get_document_title(); ?></title>
     <meta name="viewport" content="width=device-width">
 	<?php wp_head(); ?>
 </head>
@@ -19,11 +19,13 @@
     <header id="sub-header">
         <div class="container">
             <div class="row">
+                <!--Site logo-->
                 <div class="text-left-lg logo">
                     <a href="index.php">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo.png"></a>
                     <span>So turn the lights out</span>
                 </div>
+                <!--Show or not site menu in case of user login/logout-->
                 <div class="text-right-lg shop-bar">
 
 					<?php if (is_user_logged_in())
@@ -52,7 +54,7 @@
             </div>
         </div>
     </header>
-    <!--Navigation-->
+    <!--Navigation menu-->
     <header class="header">
         <div class="container">
             <div class="row">
@@ -86,18 +88,23 @@
         </div>
     </header>
 
-    <!--Invitation-->
+    <!--Welcome message-->
     <div id="bottom_bat">
         <div class="container">
             <div class="row">
-                <div class="call_for_login text-left-lg">
-					<?php if (is_user_logged_in()) {
-						echo "<span>Welcome to our site !</span>";
+                <div class="call_for_login text-center-lg">
+					<?php if (is_user_logged_in())
+					{
+						$current_user = wp_get_current_user();
+						echo '<span>Welcome to our site '. $current_user->display_name .'!</span>';
 					}
 					else
 					{
-						echo "<span>Welcome visitor! You can login or create an account.</span>";
-					}; ?>
+						?>
+                        <span>Welcome visitor! You can login or create an account.</span>
+						<?php
+					}
+					?>
                 </div>
             </div>
         </div>

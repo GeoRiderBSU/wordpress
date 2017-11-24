@@ -66,6 +66,11 @@ body{
     text-align: right;
 }
 
+.text-center-lg{
+    text-align: center;
+}
+
+
 .logo{
     float: left;
 }
@@ -227,7 +232,7 @@ body{
 
 .call_for_login{
     color: #979796;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Terminal Dosis-Book';
     font-style: italic;
     float: left;

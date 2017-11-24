@@ -4,7 +4,7 @@
  */
 ?>
 <?php
-//Set parameters of displaying
+//Setting display options for section
 $args=
 	array(
 		'numberposts' => 0,
@@ -20,8 +20,8 @@ foreach( $latest_pages as $post ){ setup_postdata($post);?>
                 <div>
                     <img class="latest_image"
                          src="<?php
-                         $search= site_url('/');
-                         $url = str_replace( $search,
+					     $search= site_url('/');
+					     $url = str_replace( $search,
 						     '',
 						     $image = get_field( 'image', $post ) );
 					     echo( $url );
